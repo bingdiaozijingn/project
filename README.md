@@ -1,13 +1,18 @@
 ﻿# 员工信息管理系统
 
 <hr>
+
 ###技术：
 
  前端：Vue，axios,elementui
+ 
  后端：node(express,express-static,url,mysql)
  
+ 
  测试地址：
+ 
  公网：http://39.98.85.98:8080/message.html
+ 
 ##员工信息数据接口
 
  
@@ -16,8 +21,11 @@
 公网：http://39.98.85.98:8080/get
 
 返回数据：json
+
 请求方式：get，http
+
 请求事例：http://39.98.85.98:8080/get
+
 ####请求参数说明：无
 
 ####返回参数说明
@@ -88,9 +96,11 @@
         </tr>
     </tbody>
 </table> 
+
 ###删除数据接口
 
 公网：http://39.98.85.98:8080/del
+
 ###返回数据说明：
 
 <table>
@@ -112,9 +122,11 @@
         </tr>
     </thead>
 </table>
+
 ###添加数据接口    
 
 公网：http://39.98.85.98:8080/add
+
 <table>
     <thead>
         <tr>
@@ -181,6 +193,7 @@
         </tr>
     </tbody>
 </table> 
+
 ###返回参数说明：
 
 <table>
@@ -202,9 +215,11 @@
         </tr>
     </thead>
 </table>
+
 ###修改数据接口
 
 公网：http://39.98.85.98:8080/edit
+
 ###返回参数说明：
 
 <table>
@@ -226,7 +241,6 @@
         </tr>
     </thead>
 </table>
-
 
 
 
